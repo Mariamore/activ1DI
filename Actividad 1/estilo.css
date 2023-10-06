@@ -1,0 +1,27 @@
+#div1 , #div2 {
+	display: flex;
+}
+
+#textBox , #playButton {
+	height: 20px;
+	margin-top: 15px;
+	margin-left: 5px;
+}
+
+#playerName {
+	margin-left: 5px;
+}
+
+#div3 {
+	float: right;
+	margin-top: 0px;
+}
+
+#rockImgPlayer, #rockImgPC , #paperImgPlayer , 
+#paperImgPC , #scisorsImgPlayer , #scisorsImgPC, 
+#lizzardImgPlayer, #lizzardImgPC, #spockImgPlayer,
+#spockImgPC {
+	height:50px;
+	width: 50px;
+
+}
