@@ -15,27 +15,40 @@
 	<main>
 		<div id="div1">
 			<h3>Introduce tu nombre:</h3>
-			<input type="text" name="textBox" id="textBox">
+			<input type="text" name="textBox" id="textBox" class="textBox">
 			<input type="button" name="play" id="playButton" value="Jugar">
 		</div>
 		<div id="div2">
 			<h3>Jugador:</h3>
 			<h3 id="playerName"></h3>
-			<img src="images/rock.png" id="rockImgPlayer">
-			<img src="images/paper.png" id="paperImgPlayer">
-			<img src="images/scisors.png" id="scisorsImgPlayer">
-			<img src="images/lizzard.png" id="lizzardImgPlayer">
-			<img src="images/spock.png" id="spockImgPlayer">
-
+			<div>
+				<img src="images/rock.png" id="rockImgPlayer" class ="imgPlayer img" alt="rock">
+				<img src="images/paper.png" id="paperImgPlayer" class ="imgPlayer img" alt="paper">
+				<img src="images/scissors.png" id="scissorsImgPlayer" class ="imgPlayer img" alt="scissors">
+				<img src="images/lizzard.png" id="lizzardImgPlayer" class ="imgPlayer img" alt="lizzard">
+				<img src="images/spock.png" id="spockImgPlayer" class ="imgPlayer img" alt="spock">
+			</div>
+		</div>
+		<div>
+			<img src="" id="playerChoiceImg">
+			<img src="images/versus.png" id="versusImg">
+			<img src="" id="pcChoiceImg">
+			<h3 id="playerScore"></h3>
+			<h3>/</h3>
+			<h3 id="pcScore"></h3>
+			<h3 id="resultText"></h3>
 		</div>
 		<div id="div3">
 			<h3>Ordenador</h3>
-			<img src="images/rock.png" id="rockImgPC">
-			<img src="images/paper.png" id="paperImgPC">
-			<img src="images/scisors.png" id="scisorsImgPC">
-			<img src="images/lizzard.png" id="lizzardImgPC">
-			<img src="images/spock.png" id="spockImgPC">
+			<div>
+				<img src="images/rock.png" id="rockImgPC" class ="imgPC img" alt="rock">
+				<img src="images/paper.png" id="paperImgPC" class ="imgPC img" alt="paper">
+				<img src="images/scissors.png" id="scissorsImgPC" class ="imgPC img" alt="scissors">
+				<img src="images/lizzard.png" id="lizzardImgPC" class ="imgPC img" alt="lizzard">
+				<img src="images/spock.png" id="spockImgPC" class ="imgPC img" alt="spock">
+			</div>
 		</div>
 	</main>
+
 </body>
 </html>

@@ -17,11 +17,21 @@
 	margin-top: 0px;
 }
 
-#rockImgPlayer, #rockImgPC , #paperImgPlayer , 
-#paperImgPC , #scisorsImgPlayer , #scisorsImgPC, 
-#lizzardImgPlayer, #lizzardImgPC, #spockImgPlayer,
-#spockImgPC {
+.imgPlayer, .imgPC {
 	height:50px;
 	width: 50px;
 
+}
+
+#scissorsImgPlayer , #scissorsImgPC {
+	background-color: white;
+}
+
+#versusImg {
+	height: 200px;
+	width: 200px;
+	border-color: black;
+	border-radius: 200px;
+	border-style: solid;
+	padding: 10px;
 }
