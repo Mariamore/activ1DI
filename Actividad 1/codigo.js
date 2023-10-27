@@ -13,6 +13,7 @@ let pcScore;
 let playerChoice;
 let pcChoice;
 let resultText;
+let slash;
 let pcPoints = 0;
 let playerPoints = 0;
 
@@ -49,6 +50,7 @@ function initializeVariables() {
 	playerScore = document.getElementById("playerScore");
 	pcScore = document.getElementById("pcScore");
 	resultText = document.getElementById("resultText");
+	slash = document.getElementById("slash");
 	
 }
 
@@ -60,6 +62,7 @@ function activateButton(){
 		//Hacemos que se muestre el marcador a 0
 		playerScore.textContent = playerPoints.toString();
 		pcScore.textContent = pcPoints.toString();
+		slash.textContent = "/";
 
 		/*Añadimos un eventListener que se active cuando se haga click en el 
 		/botón y muestre junto a Jugador: el nombre introducido en la caja
@@ -82,8 +85,8 @@ function startGame(){
 	/*Añadimos un eventListener que se active al pasar el ratón por encima de la imagen
 	/haciendo que esta aumente su tamaño
 	*/
-	for (let i = 0; i < images.length; i++) {
-		images[i].addEventListener("mouseover", function () {
+	for (let i = 0; i < imgPlayer.length; i++) {
+		imgPlayer[i].addEventListener("mouseover", function () {
 			this.style.height = "90px";
 			this.style.width = "90px";
 	
@@ -94,8 +97,8 @@ function startGame(){
 	/esta vuelva a su tamaño original.
 	*/
 
-	for(let i = 0; i < images.length; i++) {
-		images[i].addEventListener("mouseout", resizeImage);
+	for(let i = 0; i < imgPlayer.length; i++) {
+		imgPlayer[i].addEventListener("mouseout", resizeImage);
 	};
 	/*Creamos otro eventListener que haga que cuando el jugador selecciona una opción,
 	/esta aparezca en grande en el centro de la pantalla
@@ -110,6 +113,9 @@ function startGame(){
 }
 
 function addPlayer(){
+	
+
+	
 	//Comprobamos si introducimos otro jugador, para resetear el juego en tal caso
 	if (name.textContent != "" && textBox.value != name.textContent){
 		playerChoiceImg.style.opacity = "0";
@@ -120,9 +126,11 @@ function addPlayer(){
 		playerScore.textContent = playerPoints.toString();
 		pcScore.textContent = pcPoints.toString();
 		name.textContent = textBox.value;
+		
 	}
 	else {
 		name.textContent = textBox.value;
+		
 	}
 	
 

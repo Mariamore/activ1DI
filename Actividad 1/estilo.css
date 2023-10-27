@@ -1,13 +1,31 @@
+ body {
+ 	background-color: rgb(242, 213, 248, 1.0);
+ 	font-family: Verdana;
+ }
+
 #div1 , #div2 {
 	display: flex;
 }
 
-#textBox , #playButton {
+#textBox {
 	height: 20px;
 	margin-top: 15px;
 	margin-left: 5px;
+	font-family: Verdana;
+	color: rgb(87, 35, 100, 1.0);
+	border-color: rgb(87, 35, 100, 1.0);
+	border-width: 2px;
 }
 
+#playButton {
+	height: 27px;
+	margin-top: 15px;
+	margin-left: 5px;
+	font-family: Verdana;
+	color: white;
+	font-weight: bold;
+	background-color: rgb(163, 73, 164, 1.0);
+}
 #playerName {
 	margin-left: 5px;
 }
@@ -24,14 +42,56 @@
 }
 
 #scissorsImgPlayer , #scissorsImgPC {
-	background-color: white;
+	background-color: ;
 }
 
-#versusImg {
-	height: 200px;
-	width: 200px;
-	border-color: black;
-	border-radius: 200px;
-	border-style: solid;
-	padding: 10px;
+#playerChoiceImg, #pcChoiceImg , #versusImg{
+	position: absolute;
+	top: 300px;
+}
+
+ #versusImg {
+	height: 250px;
+	width: 250px;
+	padding: 20px;
+	left: 40%;
+
+}
+#playerChoiceImg {
+	left:20%;
+
+}
+
+#pcChoiceImg {
+	left: 60%;
+}
+
+#imagesPlayer {
+ 	position: absolute;
+	top: 130px;
+}
+
+#scoreboard {
+	position: absolute;
+	top: 100px;
+	left: 50%;
+	display: flex;
+	font-weight: bold;
+	font-size: large;
+
+}
+
+#resultText {
+	position: absolute;
+	top: 130px;
+	left: 48%;
+	display: flex;
+	font-weight: bold;
+	font-size:x-large;
+}
+
+#div3 {
+	position: absolute;
+	top: 70px;
+	left: 80%;
 }
