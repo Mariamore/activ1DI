@@ -1,0 +1,32 @@
+body{
+    background-image:url(../Imagenes/paisaje.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+.botonesOrdenador{
+
+    display: flex;
+    margin: 0 auto;
+    width: 60%;
+    
+}
+
+#pad{
+    padding: 15px;
+    border: 1px solid grey;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+

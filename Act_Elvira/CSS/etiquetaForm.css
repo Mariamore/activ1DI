@@ -1,0 +1,18 @@
+form{
+    height: 200px;
+    margin-top: 25px;
+    color: aliceblue;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
+
+.contenedorBienvenida{
+    color: aliceblue;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+input{
+    margin-left: 15px;
+}

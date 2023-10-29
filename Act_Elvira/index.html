@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego</title>
+    <link rel="stylesheet" href="./CSS/estilos.css">
+    <link rel="stylesheet" href="./CSS/contenedorResultado.css">
+    <link rel="stylesheet" href="./CSS/botonJugar.css">
+    <link rel="stylesheet" href="./CSS/cabeceraJuego.css">
+    <link rel="stylesheet" href="./CSS/etiquetaForm.css">
+    <link rel="stylesheet" href="./CSS/botonesLateral.css">
+    <script src="./JavaScript/codigo.js"></script>
+</head>
+<body>
+    
+    
+    <header>
+        <div class="header">
+            <h1 class="tituloHeader" id="titulo">Piedra * papel * tijera * lagarto * Spock</h1>
+        </div>  
+    </header>
+
+    <!-- Formulario -->
+
+    <form>
+        <label>Introduce el nombre</label>
+        <input type="text" id="nombre" placeholder="Introduce el nombre">
+        <div class="contenedorBotonJugar dimension">
+            <button id="empezarJugar" disabled="true">
+                    <span>Empezar Juego</span>
+            </button>
+        </div>
+
+        <div class="contenedorBienvenida">
+            <span>Bienvenido al juego: </span> <span id="mensajeError"></span>
+      
+        </div>
+    </form>
+
+    <!-- Botones Contenedor Usuario -->
+
+    <div class="botonesLateral">
+
+        <div class="tamaño">
+            <button id="tijera" type="button">
+                <img src="./Imagenes/tijerasdef.jpg" > 
+            </button>
+        </div>
+
+        <div class="tamaño">
+            <button id="papel" type="button">
+               <img src="./Imagenes/papeldef.jpg"> 
+            </button>
+        </div>
+
+        <div class="tamaño">
+            <button id="piedra" type="button">
+                <img src="./Imagenes/piedra.jpg"> 
+            </button>
+        </div>
+
+        <div class="tamaño">
+            <button id="lagarto" type="button">
+                <img src="./Imagenes/Lagarto.jpg"> 
+            </button>
+        </div>
+
+        <div class="tamaño">
+            <button id="spock" type="button">
+                <img src="./Imagenes/Spock.jpg"> 
+            </button>
+        </div>
+
+      
+    </div>
+
+    <!-- Resultado usuario vs ordenador-->
+    <div class="contenedorResultado">
+       <div class="resultado">
+
+  
+            <img class="user" id="usuario" src="./Imagenes/user.jpg" >
+            
+            <div>
+                <p class="estilo1">VS.</p>
+            </div>
+           
+            <img class="or" id="ordenador" src="./Imagenes/cerebro.webp"  >
+            
+
+       </div> 
+    </div>
+
+    <div id="resultadoBatalla">
+        <h3 class="estilo">Que empiece la batalla!</h3>
+    </div>
+
+    <div id="marcador" class="estiloMarcador">
+
+        <span id="ptoUsuario" class="estilo">0</span> <span class="estilo">/</span> <span id="ptoOrdenador" class="estilo">0</span>
+
+    </div>
+      
+
+        <!-- Botones contenedor ordenador-->
+        <div class="botonesLateral">
+            <div id="ordenador-tijera">
+                <button type="button">
+                    <img src="./Imagenes/tijerasdef.jpg" > 
+                </button>
+            </div>
+        
+            <div id="ordenador-papel">
+                <button type="button">
+                   <img src="./Imagenes/papeldef.jpg"> 
+                </button>
+            </div>
+        
+            <div id="ordenador-piedra">
+                <button type="button">
+                    <img src="./Imagenes/piedra.jpg"> 
+                </button>
+            </div>
+        
+            <div id="ordenador-lagarto">
+                <button type="button">
+                    <img src="./Imagenes/Lagarto.jpg"> 
+                </button>
+            </div>
+        
+            <div id="ordenador-spock">
+                <button type="button">
+                    <img src="./Imagenes/Spock.jpg"> 
+                </button>
+            </div>
+        </div>
+        
+
+
+</body>
+</html>
