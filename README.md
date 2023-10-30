@@ -19,7 +19,7 @@ Este juego es una expansión del juego clásico *Piedra, papel o tijeras*, al qu
 
 ## Funcionamiento
 
-Al entrar en el juego, mediante el archivo *index.html*, el usuario deberá escribir su nombre en el cuadro de texto y pulsar el botón *Jugar*. El nombre aparecerá en la parte superior de la columna izquierda.
+Al entrar en el juego, mediante el archivo [index.html](Act_Alvaro/index.html), el usuario deberá escribir su nombre en el cuadro de texto y pulsar el botón *Jugar*. El nombre aparecerá en la parte superior de la columna izquierda.
 
 ![Imagen](ImagenesReadMe/pptls02.png)
 
