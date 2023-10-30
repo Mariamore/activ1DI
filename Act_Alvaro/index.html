@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="estilos.css">
+	<script type="text/javascript" src="script.js"></script>
+	<title>Piedra, papel, tijeras, lagarto, Spock</title>
+</head>
+<body>
+
+	<div class="cabecera" id="titulo">
+		<h1>Piedra, papel, tijeras, lagarto, Spock</h1>
+	</div>
+	<div class="cajaNombre">
+		<form>
+			Nombre: <input type="text" id="cajaNombres"> <input type="button" value="Jugar" id="botonNombre">
+		</form>
+	</div>
+	<br>
+	<div class="cajaJugador">
+		<h2 id="nombreJugador">Nombre jugador</h2>
+		<div class="cajaIcono">
+			<a><img class="imagenJuego" src="imagenes/piedra.png" id="jugadorPiedra"></a>
+			<a><img class="imagenJuego" src="imagenes/papel.png" id="jugadorPapel"></a>
+			<a><img class="imagenJuego" src="imagenes/tijeras.png" id="jugadorTijeras"></a>
+			<a><img class="imagenJuego" src="imagenes/lagarto.png" id="jugadorLagarto"></a>
+			<a><img class="imagenJuego" src="imagenes/spock.png" id="jugadorSpock"></a>
+		</div>
+	</div>
+
+	<div class="cajaCentral">
+		<h1 id="textoMarcador">Introduce tu nombre</h1>
+		<h1>
+		<span id="marcadorJugador"></span><span>-</span><span id="marcadorOrdenador"></span>
+		</h1>
+		<div class="cajaSeleccion">
+			<a><img class="imagenSeleccion" src="imagenes/circulo.png" id="jugadorSeleccion" align="left"></a>
+			<a><img class="imagenSeleccion" src="imagenes/circulo.png" id="ordenadorSeleccion" align="right"></a>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<h1>Vs.</h1>
+			<br>
+			<h1 id="resultado">Resultado</h1>
+		</div>
+	</div>
+
+	<div class="cajaOrdenador">
+		<h2>Ordenador</h2>
+		<div class="cajaIcono">
+			<a><img class="imagenJuego" src="imagenes/piedra.png" id="ordenadorPiedra"></a>
+			<a><img class="imagenJuego" src="imagenes/papel.png" id="ordenadorPapel"></a>
+			<a><img class="imagenJuego" src="imagenes/tijeras.png" id="ordenadorTijeras"></a>
+			<a><img class="imagenJuego" src="imagenes/lagarto.png" id="ordenadorLagarto"></a>
+			<a><img class="imagenJuego" src="imagenes/spock.png" id="ordenadorSpock"></a>
+		</div>
+	</div>
+
+
+</html>

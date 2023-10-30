@@ -1,0 +1,93 @@
+body{
+	background-color: darkcyan;
+}
+
+h1{
+	text-align: center;
+	font-size: 40px;
+}
+
+h2{
+	text-align: center;
+}
+
+form{
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 15px;
+	margin-top: 40px;
+}
+
+.cabecera{
+	background-color: mediumturquoise;
+	width: 93.3%;
+	height: 50px;
+	color: black;
+	text-align: center;
+	padding: 50;
+	margin-left: 30px;
+	margin-top: 30px;
+	box-shadow: 5px 5px 5px;
+	border-radius: 20px 20px 20px 20px;
+}
+
+.cajaNombre{
+	background-color: mediumturquoise;
+	width: 20%;
+	height: 75px;
+	margin-left: 30px;
+	margin-top: 30px;
+	box-shadow: 5px 5px 5px;
+	border-radius: 20px 20px 20px 20px;
+}
+
+.cajaJugador{
+	background-color: mediumturquoise;
+	float: left;
+	width: 20%;
+	height: 700px;
+	margin-left: 30px;
+	margin-top: 30 px;
+	box-shadow: 5px 5px 5px;
+	border-radius: 20px 20px 20px 20px;
+}
+
+.cajaCentral{
+	background-color: mediumturquoise;
+	float: left;
+	width: 50%;
+	height: 700px;
+	margin-left: 30px;
+	margin-top: 30 px;
+	box-shadow: 5px 5px 5px;
+	border-radius: 20px 20px 20px 20px;
+}
+
+.cajaOrdenador{
+	background-color: mediumturquoise;
+	float: left;
+	width: 20%;
+	height: 700px;
+	margin-left: 30px;
+	margin-top: 30 px;
+	box-shadow: 5px 5px 5px;
+	border-radius: 20px 20px 20px 20px;
+}
+
+.cajaIcono{
+	display: inline-block;
+	margin-left: 75px;
+}
+
+.imagenJuego{
+	width: 120px;
+	height: 120px;
+}
+
+.imagenSeleccion{
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	padding: 40px;
+}
